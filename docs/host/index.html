@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Demonic2</title>
+	<link rel="stylesheet" href="main.css">
+	<script
+		src="./bpf.js">
+	</script>
+</head>
+
+<body>
+	<main>
+ 		<div id="wrapper">
+			<div id="right">
+				<div id="midiKeyboard"></div>
+				<div id="pluginContainer">
+					<div id="mount"></div>
+					<br>
+					<div>
+						<!-- <div id="left"> -->
+							<audio hidden id="player" src="https://wasabi.i3s.unice.fr/WebAudioPluginBank/BasketCaseGreendayriffDI.mp3"
+							controls loop crossOrigin="anonymous">
+						</audio>
+						<p><select id="selectAudioInput" class="widget">
+							</select>
+						</p>
+		
+						<p>
+							<button id="toggleLiveInput" class="widget">Live input:
+								<span style='color:#cc7c6e;'>Off</span></button>
+						</p>
+						<form id="form">
+							<div id="left">
+							</div>
+						</form>
+					</div>
+					<button hidden id="saveStateButton" class="widget" disabled>SAVE STATE</button>&nbsp;
+					<button hidden id="restoreStateButton" class="widget" disabled>RESTORE STATE</button>
+				</div>
+				<div hidden id="pluginInfoContainer">
+					<div id="pluginInfoDiv"></div>
+				</div>
+				<div id="pluginAutomationContainer">
+					<div id="pluginParamSelectorContainer">
+						<select name="pluginParamSelector" id="pluginParamSelector" class="widget">
+							<option value="-1" disabled selected>Add Automation...</option>
+						</select>
+						<label for="pluginAutomationLength">Duration (sec):</label>
+						<input name="pluginAutomationLength" id="pluginAutomationLength" type="number" class="widget" min="1" step="0.1" value="1" />
+						<input id="pluginAutomationApply" type="button" class="widget" value="Apply" />
+					</div>
+					<div id="pluginAutomationEditor">
+					</div>
+				</div>
+				<div id="sendMIDIContainer">
+					<button id="sendMIDINoteButton" class="widget">Send MIDI Note</button>
+				</div>
+
+
+				
+			</div>
+		</div>
+	</main>
+
+	<script src="main.js"></script>
+</body>
+
+</html>
