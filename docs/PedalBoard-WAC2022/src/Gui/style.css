@@ -13,7 +13,7 @@ body {
 
 main {
   position: relative;
-  width: 1000px;
+  width: 1200px;
   min-width: 500px;
   resize: horizontal;
   overflow: auto;
@@ -59,7 +59,7 @@ img {
   display: flex;
   align-items: flex-start;
   gap: 0.5rem;
-  height: 230px;
+  height: 460px;
   padding: 1rem;
   overflow-x: auto;
   overflow-y: hidden;

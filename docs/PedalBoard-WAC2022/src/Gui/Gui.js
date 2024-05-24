@@ -44,7 +44,7 @@ export default class pedalboardGui extends HTMLElement {
 		this.main = document.createElement('main');
 
 		var title = document.createElement('h1');
-		title.innerHTML = 'WAM2 Pedalboard';
+		title.innerHTML = '';
 		title.id = 'title';
 
 		this.main.appendChild(title);
@@ -107,11 +107,12 @@ export default class pedalboardGui extends HTMLElement {
 			})
 		);
 
-		let details = document.createElement('details');
-		details.open = true;
+		let details = document.createElement('div');
+		// let details = document.createElement('details');
+		// details.open = true;
 
-		let summary = document.createElement('summary');
-		summary.innerHTML = 'Select filter';
+		// let summary = document.createElement('summary');
+		// summary.innerHTML = '';
 
 		let preview = document.createElement('div');
 		preview.id = 'preview';
@@ -167,7 +168,7 @@ export default class pedalboardGui extends HTMLElement {
 			);
 		};
 
-		details.appendChild(summary);
+		// details.appendChild(summary);
 		details.appendChild(preview);
 		this.main.appendChild(details);
 	}
@@ -727,7 +728,7 @@ export default class pedalboardGui extends HTMLElement {
 	 */
 	setStyle() {
 		this.style.display = 'inline-flex';
-		this.baseWidth = 1002;
+		this.baseWidth = 1202;
 		this.baseHeight = 609;
 
 		var head = document.createElement('head');
