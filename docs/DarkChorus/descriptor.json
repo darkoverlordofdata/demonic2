@@ -1,0 +1,21 @@
+{
+    "identifier": "com.darkoverlordofdata.darkchorus",
+    "name": "DarkChorus",
+    "vendor": "darkoverlordofdata",
+    "description": "",
+    "version": "2.74.1",
+    "apiVersion": "2.0.0",
+    "keywords": [],
+    "thumbnail": "screenshot.png",
+    "isInstrument": false,
+    "website": "",
+    "hasAudioInput": true,
+    "hasAudioOutput": true,
+    "hasMidiInput": true,
+    "hasMidiOutput": false,
+    "faustMeta": {
+        "poly": false,
+        "fft": false,
+        "effect": null
+    }
+}
