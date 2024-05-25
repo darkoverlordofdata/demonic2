@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+	<link rel="icon" href="./favicon.ico"/>    
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Demonic2</title>
@@ -9,6 +10,14 @@
 	<script
 		src="./bpf.js">
 	</script>
+
+	<!-- Meta Tags for Progressive Web App -->
+	<meta name="apple-mobile-web-app-status-bar" content="#aa7700">
+	<meta name="theme-color" content="black">
+	
+	<!-- Link to the Manifest File -->
+	<link rel="manifest" href="manifest.json">
+
 </head>
 
 <body>
@@ -65,6 +74,8 @@
 	</main>
 
 	<script src="main.js"></script>
+    <!-- Link to the Service Worker -->
+    <script src="app.js"></script>
 </body>
 
 </html>
