@@ -1,0 +1,199 @@
+{
+    "name": "Freeverb",
+    "filename": "Freeverb.dsp",
+    "version": "2.72.10",
+    "compile_options": "-lang wasm-i -ct 1 -es 1 -mcd 16 -mdd 1024 -mdy 33 -single -ftz 2",
+    "include_pathnames": [
+        "/share/faust",
+        "/usr/local/share/faust",
+        "/usr/share/faust",
+        "."
+    ],
+    "size": 74936,
+    "code": "cO+V",
+    "inputs": 2,
+    "outputs": 2,
+    "meta": [
+        {
+            "author": "Grame"
+        },
+        {
+            "basics_lib_bypass2_author": "Julius Smith"
+        },
+        {
+            "basics_lib_name": "Faust Basic Element Library"
+        },
+        {
+            "basics_lib_tabulateNd": "Copyright (C) 2023 Bart Brouns <bart@magnetophon.nl>"
+        },
+        {
+            "basics_lib_version": "1.15.0"
+        },
+        {
+            "compile_options": "-single -scal -I /usr/share/project/"
+        },
+        {
+            "copyright": "(c) GRAME 2006 and MoForte Inc. 2017"
+        },
+        {
+            "designer": "Robert A. Moog"
+        },
+        {
+            "filename": "Freeverb.dsp"
+        },
+        {
+            "library_path0": "/usr/share/faust/stdfaust.lib"
+        },
+        {
+            "library_path1": "/usr/share/faust/basics.lib"
+        },
+        {
+            "library_path2": "/usr/share/faust/routes.lib"
+        },
+        {
+            "license": "BSD"
+        },
+        {
+            "name": "Freeverb"
+        },
+        {
+            "reference": "https://ccrma.stanford.edu/~jos/pasp/Freeverb.html"
+        },
+        {
+            "routes_lib_name": "Faust Signal Routing Library"
+        },
+        {
+            "routes_lib_version": "1.2.0"
+        },
+        {
+            "version": "2.74.1"
+        }
+    ],
+    "ui": [
+        {
+            "type": "hgroup",
+            "label": "Freeverb",
+            "items": [
+                {
+                    "type": "hgroup",
+                    "label": "Effects",
+                    "meta": [
+                        {
+                            "1": ""
+                        }
+                    ],
+                    "items": [
+                        {
+                            "type": "hgroup",
+                            "label": "Reverb",
+                            "meta": [
+                                {
+                                    "7": ""
+                                }
+                            ],
+                            "items": [
+                                {
+                                    "type": "vgroup",
+                                    "label": "Knobs",
+                                    "meta": [
+                                        {
+                                            "0": ""
+                                        }
+                                    ],
+                                    "items": [
+                                        {
+                                            "type": "vslider",
+                                            "label": "Damp",
+                                            "shortname": "Damp",
+                                            "address": "/Freeverb/Effects/Reverb/Knobs/Damp",
+                                            "index": 12,
+                                            "meta": [
+                                                {
+                                                    "midi": "ctrl 3"
+                                                },
+                                                {
+                                                    "style": "knob"
+                                                }
+                                            ],
+                                            "init": 0.5,
+                                            "min": 0,
+                                            "max": 1,
+                                            "step": 0.025
+                                        },
+                                        {
+                                            "type": "vslider",
+                                            "label": "RoomSize",
+                                            "shortname": "RoomSize",
+                                            "address": "/Freeverb/Effects/Reverb/Knobs/RoomSize",
+                                            "index": 8,
+                                            "meta": [
+                                                {
+                                                    "midi": "ctrl 4"
+                                                },
+                                                {
+                                                    "style": "knob"
+                                                }
+                                            ],
+                                            "init": 0.5,
+                                            "min": 0,
+                                            "max": 1,
+                                            "step": 0.025
+                                        },
+                                        {
+                                            "type": "vslider",
+                                            "label": "Wet",
+                                            "shortname": "Wet",
+                                            "address": "/Freeverb/Effects/Reverb/Knobs/Wet",
+                                            "index": 4,
+                                            "meta": [
+                                                {
+                                                    "midi": "ctrl 2"
+                                                },
+                                                {
+                                                    "style": "knob"
+                                                }
+                                            ],
+                                            "init": 0.3333,
+                                            "min": 0,
+                                            "max": 1,
+                                            "step": 0.025
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "vgroup",
+                                    "label": "Switches",
+                                    "meta": [
+                                        {
+                                            "1": ""
+                                        }
+                                    ],
+                                    "items": [
+                                        {
+                                            "type": "checkbox",
+                                            "label": "Enable",
+                                            "shortname": "Enable",
+                                            "address": "/Freeverb/Effects/Reverb/Switches/Enable",
+                                            "index": 0,
+                                            "meta": [
+                                                {
+                                                    "0": ""
+                                                },
+                                                {
+                                                    "midi": "ctrl 105"
+                                                },
+                                                {
+                                                    "style": "knob"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

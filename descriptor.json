@@ -1,0 +1,21 @@
+{
+    "identifier": "com.darkoverlordofdata.darkchorus",
+    "name": "DarkChorus",
+    "vendor": "darkoverlordofdata",
+    "description": "Chorus Pedal",
+    "version": "1.0.0",
+    "apiVersion": "1.0.0",
+    "keywords": ["chorus"],
+    "thumbnail": "screenshot.png",
+    "isInstrument": false,
+    "website": "",
+    "hasAudioInput": true,
+    "hasAudioOutput": true,
+    "hasMidiInput": true,
+    "hasMidiOutput": false,
+    "faustMeta": {
+        "poly": false,
+        "fft": false,
+        "effect": null
+    }
+}

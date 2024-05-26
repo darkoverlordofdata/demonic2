@@ -1,0 +1,21 @@
+{
+    "identifier": "fr.grame.faust.freeverb",
+    "name": "Freeverb",
+    "vendor": "Grame",
+    "description": "",
+    "version": "2.74.1",
+    "apiVersion": "2.0.0",
+    "keywords": ["reverb"],
+    "thumbnail": "screenshot.png",
+    "isInstrument": false,
+    "website": "",
+    "hasAudioInput": true,
+    "hasAudioOutput": true,
+    "hasMidiInput": true,
+    "hasMidiOutput": false,
+    "faustMeta": {
+        "poly": false,
+        "fft": false,
+        "effect": null
+    }
+}

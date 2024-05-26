@@ -17,5 +17,6 @@ esm/
 .env*.local
 .log*
 .cache
+*.zip
 lerna-debug.log
 yarn-error.log
