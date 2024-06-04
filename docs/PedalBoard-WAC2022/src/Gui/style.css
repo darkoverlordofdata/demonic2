@@ -13,7 +13,7 @@ body {
 
 main {
   position: relative;
-  width: 1200px;
+  width: 900px;
   min-width: 500px;
   resize: horizontal;
   overflow: auto;

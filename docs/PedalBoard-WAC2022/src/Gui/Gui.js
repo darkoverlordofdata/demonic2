@@ -728,8 +728,8 @@ export default class pedalboardGui extends HTMLElement {
 	 */
 	setStyle() {
 		this.style.display = 'inline-flex';
-		this.baseWidth = 1202;
-		this.baseHeight = 609;
+		this.baseWidth = 900;
+		this.baseHeight = 600;
 
 		var head = document.createElement('head');
 
